@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+// const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -12,7 +12,7 @@ export default {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'src'),
-    publicPath: '/src/',
+    publicPath: '/',
     filename: 'bundle.js'
   },
   plugins: [
