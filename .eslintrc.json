@@ -1,5 +1,5 @@
 {
-  "root": true,
+  "root": false,
   "extends": [
     "eslint:recommended",
     "plugin:import/errors",
@@ -15,6 +15,7 @@
     "mocha": true
   },
   "rules": {
-    "no-console": 1
+    "quotes": ["warn", "single"],
+    "semi": ["error", "always"]
   }
 }
